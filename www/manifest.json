@@ -1,0 +1,9 @@
+{
+  "name": "100 Doors: Brain Escape",
+  "short_name": "Brain Escape",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080a0f",
+  "theme_color": "#080a0f",
+  "description": "A 100-level logic and observation escape game."
+}

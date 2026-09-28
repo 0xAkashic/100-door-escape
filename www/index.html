@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#080a0f">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;800&display=swap" rel="stylesheet">
+<title>100 Doors: Brain Escape</title>
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="brand"><b id="brandTitle">100 DOORS</b><small id="brandSub">BRAIN ESCAPE</small></div>
+  <div class="stats"><span id="level">1</span><span>/100</span><span id="starsHud" class="stars-hud">★ 0</span></div>
+  <button id="hubBtn" class="icon-btn" aria-label="Map">🗺️</button>
+  <button id="imagePuzzleBtn" class="icon-btn" aria-label="Image puzzles">🧩</button>
+  <button id="dailyBtn" class="icon-btn" aria-label="Daily">📅</button>
+  <button id="settingsBtn" class="icon-btn" aria-label="Settings">⚙️</button>
+  <button id="mute" class="icon-btn" aria-label="Toggle sound">🔊</button>
+</header>
+<div class="chapter"><span id="chapter">CHAPTER 1</span><span id="streak">STREAK 0</span></div>
+<main id="game"></main>
+<footer>
+  <button id="hint">💡 <span id="hintLabel">Hint</span> <b id="hintCount">3</b></button>
+  <button id="keysBtn">🔑 <b id="keyCount">0</b></button>
+  <button id="reset">↻ <span id="resetLabel">Reset</span></button>
+</footer>
+</div>
+<div id="toast"></div>
+<script src="audio.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

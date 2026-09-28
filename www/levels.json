@@ -1,0 +1,1172 @@
+[
+ {
+  "id": 1,
+  "type": "observation",
+  "title": "Symbol Count",
+  "scene": "Symbols flicker across a monitor.",
+  "clue": "How many ▲ are there in this row?  ▲ ● ▲ ▲ ● ▲ ● ● ▲ ▲ ● ▲ ● ▲ ▲",
+  "answer": "9",
+  "hint": "Point at each ▲ as you count. Do not count the circles.",
+  "time": 45
+ },
+ {
+  "id": 2,
+  "type": "sequence",
+  "title": "Pulse Monitor",
+  "scene": "A heart monitor beeps behind the glass.",
+  "clue": "2, 3, 5, 8, 12, ?",
+  "answer": "17",
+  "hint": "Look at the gaps between numbers. The gaps grow by one each time.",
+  "time": 40
+ },
+ {
+  "id": 3,
+  "type": "multistep",
+  "title": "Dose Chain",
+  "scene": "The pharmacy code is built in steps.",
+  "clue": "Start with 12. Double it. Subtract 5. Then add the number of days in a week. What number do you get?",
+  "answer": "26",
+  "hint": "Do one step at a time, in order.",
+  "time": 55
+ },
+ {
+  "id": 4,
+  "type": "cipher",
+  "title": "Prescription Note",
+  "scene": "A doctor's note is taped to the medicine cabinet.",
+  "clue": "The note reads QXUVH. Every letter was shifted forward by 3. What was the original word?",
+  "answer": "NURSE",
+  "hint": "Move each letter 3 places back through the alphabet.",
+  "time": 60
+ },
+ {
+  "id": 5,
+  "type": "choice",
+  "title": "The Odd Number",
+  "scene": "Five tags hang from the drip stand.",
+  "clue": "Which number does not belong: 3, 5, 7, 9, 11?",
+  "answer": "9",
+  "hint": "What do the other four have in common?",
+  "time": 40,
+  "choices": [
+   "3",
+   "5",
+   "7",
+   "9",
+   "11"
+  ]
+ },
+ {
+  "id": 6,
+  "type": "lateral",
+  "title": "Shepherd's Count",
+  "scene": "A nurse's riddle is pinned to the door.",
+  "clue": "A farmer has 17 sheep. All but 9 run away. How many are left?",
+  "answer": "9",
+  "hint": "Read carefully: 'all but 9'.",
+  "time": 50
+ },
+ {
+  "id": 7,
+  "type": "math",
+  "title": "Dosage Sum",
+  "scene": "A chart lists dosage percentages.",
+  "clue": "Code = 15% of 240, plus 30% of 50.",
+  "answer": "51",
+  "hint": "15% of 240 is 240 x 0.15.",
+  "time": 60
+ },
+ {
+  "id": 8,
+  "type": "logic",
+  "title": "Triage Drawers",
+  "scene": "Three drawers hold the master key.",
+  "clue": "Drawer A: 'The key is in this drawer.' Drawer B: 'The key is NOT in this drawer.' Drawer C: 'The key is not in drawer A.' Exactly one label is true. Where is the key?",
+  "answer": "B",
+  "hint": "Test each drawer in turn and count how many labels come out true.",
+  "time": 60,
+  "choices": [
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ {
+  "id": 9,
+  "type": "memory",
+  "title": "Wristband Number",
+  "scene": "A patient's wristband flashes a number.",
+  "clue": "Memorize: 7 2 9 4",
+  "answer": "7294",
+  "hint": "Enter the code.",
+  "time": 35,
+  "memTime": 4,
+  "ask": "Enter the code.",
+  "text": false
+ },
+ {
+  "id": 10,
+  "type": "cipherMath",
+  "title": "Master Lock: Door",
+  "scene": "The exit has a word lock.",
+  "clue": "Every letter has a value: A=1, B=2, C=3 ... Z=26. Add up the values of the letters in DOOR.",
+  "answer": "52",
+  "hint": "D=4, O=15, O=15, R=18.",
+  "time": 70
+ },
+ {
+  "id": 11,
+  "type": "sequence",
+  "title": "Platform Numbers",
+  "scene": "Numbers are painted along the tunnel wall.",
+  "clue": "2, 6, 12, 20, 30, ?",
+  "answer": "42",
+  "hint": "The gaps are 4, 6, 8, 10... keep the pattern going.",
+  "time": 50
+ },
+ {
+  "id": 12,
+  "type": "memory",
+  "title": "Ticket Code",
+  "scene": "A ticket screen flashes once.",
+  "clue": "Memorize: 3 8 1 6 0",
+  "answer": "38160",
+  "hint": "Enter the code.",
+  "time": 45,
+  "memTime": 4,
+  "ask": "Enter the code.",
+  "text": false
+ },
+ {
+  "id": 13,
+  "type": "math",
+  "title": "Gate Numbers",
+  "scene": "Two platform numbers are painted side by side.",
+  "clue": "Two consecutive whole numbers multiply to 552. Enter the larger one.",
+  "answer": "24",
+  "hint": "The square root of 552 is a little under 24.",
+  "time": 70
+ },
+ {
+  "id": 14,
+  "type": "lateral",
+  "title": "Shrinking Word",
+  "scene": "A word on the wall changes when letters are added.",
+  "clue": "I am a word. If you add two letters to me, I become shorter. What am I?",
+  "answer": "SHORT",
+  "hint": "Think of comparatives, like taller or bigger.",
+  "time": 60
+ },
+ {
+  "id": 15,
+  "type": "cipher",
+  "title": "Stamped Ticket",
+  "scene": "A stamped ticket lies on the platform.",
+  "clue": "The stamp reads ABUULS. Every letter was shifted forward by 7. What was the original word?",
+  "answer": "TUNNEL",
+  "hint": "Shift each letter 7 places back.",
+  "time": 70
+ },
+ {
+  "id": 16,
+  "type": "observation",
+  "title": "Most Common Letter",
+  "scene": "A passenger log is smudged.",
+  "clue": "Which letter appears most often in: TRANSIT TERMINAL TRAINS?",
+  "answer": "T",
+  "hint": "Tally each letter. One of them clearly leads.",
+  "time": 55
+ },
+ {
+  "id": 17,
+  "type": "logic",
+  "title": "Honest or Liar",
+  "scene": "Two gate guards block the tunnel. Each is either always honest or always lying.",
+  "clue": "Guard X says: 'We are both liars.' What is Guard Y?",
+  "answer": "Honest",
+  "hint": "Could X be honest and say that? Follow the contradiction.",
+  "time": 70,
+  "choices": [
+   "Honest",
+   "Liar",
+   "Cannot tell"
+  ]
+ },
+ {
+  "id": 18,
+  "type": "choice",
+  "title": "Compass Turns",
+  "scene": "A tunnel compass spins.",
+  "clue": "You face North. Turn right 90 degrees, then left 180 degrees, then right 90 degrees. Which way do you face now?",
+  "answer": "NORTH",
+  "hint": "Track it one turn at a time.",
+  "time": 50,
+  "choices": [
+   "NORTH",
+   "EAST",
+   "SOUTH",
+   "WEST"
+  ]
+ },
+ {
+  "id": 19,
+  "type": "multistep",
+  "title": "Ticket Arithmetic",
+  "scene": "A ticket machine accepts only a computed code.",
+  "clue": "Take the number of letters in ARCHIVE. Multiply by the number of sides of a hexagon. Subtract the number of months in a year.",
+  "answer": "30",
+  "hint": "ARCHIVE has 7 letters. A hexagon has 6 sides.",
+  "time": 65
+ },
+ {
+  "id": 20,
+  "type": "cipherMath",
+  "title": "Master Lock: Numerals",
+  "scene": "The platform gate uses Roman numerals.",
+  "clue": "Convert the Roman numeral XLVII to an ordinary number, then multiply it by the number of letters in XLVII.",
+  "answer": "235",
+  "hint": "XL is 40, VII is 7.",
+  "time": 80
+ },
+ {
+  "id": 21,
+  "type": "logic",
+  "title": "Who Took the File",
+  "scene": "One of three clerks removed a file. Exactly one clerk is telling the truth.",
+  "clue": "Ana: 'Ben took it.' Ben: 'I did not take it.' Cara: 'Ana is lying.' Who took the file?",
+  "answer": "Ben",
+  "hint": "Suppose each clerk took it in turn and count the true statements.",
+  "time": 80,
+  "choices": [
+   "Ana",
+   "Ben",
+   "Cara"
+  ]
+ },
+ {
+  "id": 22,
+  "type": "multistep",
+  "title": "Price Adjustment",
+  "scene": "Archive fees change twice.",
+  "clue": "A fee starts at 200. It is cut by 15%. Then the new fee is raised by 10%. What is the final fee?",
+  "answer": "187",
+  "hint": "The 10% applies to the reduced fee, not to 200.",
+  "time": 75
+ },
+ {
+  "id": 23,
+  "type": "sequence",
+  "title": "Two Voices",
+  "scene": "Two clocks tick out of sync in the archive.",
+  "clue": "3, 10, 6, 20, 12, 40, ?",
+  "answer": "24",
+  "hint": "Two patterns are woven together. Read every second number.",
+  "time": 60
+ },
+ {
+  "id": 24,
+  "type": "observation",
+  "title": "Sevens",
+  "scene": "The archive numbers its pages 1 to 100.",
+  "clue": "How many times does the digit 7 appear when you write every whole number from 1 to 100?",
+  "answer": "20",
+  "hint": "Count the 7s in the units place and in the tens place separately.",
+  "time": 65
+ },
+ {
+  "id": 25,
+  "type": "memory",
+  "title": "Call Number",
+  "scene": "A catalogue card is briefly lit.",
+  "clue": "Memorize: 5 1 7 3 9 2",
+  "answer": "517392",
+  "hint": "Enter the code.",
+  "time": 55,
+  "memTime": 5,
+  "ask": "Enter the code.",
+  "text": false
+ },
+ {
+  "id": 26,
+  "type": "cipher",
+  "title": "Backwards Ledger",
+  "scene": "Someone wrote in the ledger backwards.",
+  "clue": "The entry FTQEGT was written backwards, and then every letter was shifted forward by 2. Decode it.",
+  "answer": "RECORD",
+  "hint": "Undo the steps in reverse order: shift back first, then flip the word.",
+  "time": 80
+ },
+ {
+  "id": 27,
+  "type": "lateral",
+  "title": "The Photographer",
+  "scene": "A strange case file sits open.",
+  "clue": "A woman shoots her husband, holds him underwater for five minutes, then hangs him. Later, they go out to dinner together. How?",
+  "answer": "She is a photographer",
+  "hint": "Treat every action as a step in a process, not as violence.",
+  "time": 70,
+  "choices": [
+   "She is a photographer",
+   "He was already dead",
+   "It was a stage play",
+   "He was a stuntman"
+  ]
+ },
+ {
+  "id": 28,
+  "type": "math",
+  "title": "The Stuck Clock",
+  "scene": "The archive clock is frozen.",
+  "clue": "At 3:40, what is the smaller angle between the hour hand and the minute hand, in degrees?",
+  "answer": "130",
+  "hint": "The hour hand keeps moving: 0.5 degrees per minute.",
+  "time": 80,
+  "alt": [
+   "130°",
+   "130 DEGREES"
+  ]
+ },
+ {
+  "id": 29,
+  "type": "choice",
+  "title": "Mirror Clock",
+  "scene": "A clock is reflected in the archive mirror.",
+  "clue": "In a mirror, a clock appears to show 3:15. What is the real time?",
+  "answer": "8:45",
+  "hint": "Subtract the mirrored time from 12:00.",
+  "time": 60,
+  "choices": [
+   "8:45",
+   "9:15",
+   "2:45",
+   "3:45"
+  ]
+ },
+ {
+  "id": 30,
+  "type": "cipherMath",
+  "title": "Master Lock: Binary",
+  "scene": "The archive door accepts only binary.",
+  "clue": "Convert binary 101101 to an ordinary number, then subtract the number of 1s in the binary number 111011.",
+  "answer": "40",
+  "hint": "Place values from the right: 1, 2, 4, 8, 16, 32.",
+  "time": 90
+ },
+ {
+  "id": 31,
+  "type": "lateral",
+  "title": "Elevator Habit",
+  "scene": "A resident's odd routine puzzles the house.",
+  "clue": "A man lives on the 20th floor. Every morning he rides the lift to the ground floor. Coming home he rides to the 10th floor and walks the rest, unless it is raining, then he rides all the way. Why?",
+  "answer": "He is too short to reach the top button",
+  "hint": "What could he reach on a rainy day that he cannot reach on a dry day?",
+  "time": 80,
+  "choices": [
+   "He is afraid of heights",
+   "He wants the exercise",
+   "The lift is broken above floor 10",
+   "He is too short to reach the top button"
+  ]
+ },
+ {
+  "id": 32,
+  "type": "math",
+  "title": "Gear Remainders",
+  "scene": "A gear must line up on three dials.",
+  "clue": "Find the smallest positive number that leaves remainder 2 when divided by 3, remainder 3 when divided by 5, and remainder 2 when divided by 7.",
+  "answer": "23",
+  "hint": "List numbers that leave 3 when divided by 5: 3, 8, 13, 18, 23... test each.",
+  "time": 90
+ },
+ {
+  "id": 33,
+  "type": "cipher",
+  "title": "Mirror Alphabet",
+  "scene": "A mirror behind the clock hides letters.",
+  "clue": "The dial spells KVMWFOFN. In this mirror alphabet A=Z, B=Y, C=X and so on. What was the word?",
+  "answer": "PENDULUM",
+  "hint": "A mirror swaps the first letter of the alphabet with the last, the second with the second-last...",
+  "time": 90
+ },
+ {
+  "id": 34,
+  "type": "sequence",
+  "title": "Gear Ratio",
+  "scene": "Brass gears tick above a numbered dial.",
+  "clue": "1, 3, 7, 15, 31, ?",
+  "answer": "63",
+  "hint": "Compare each number with double the one before it.",
+  "time": 70
+ },
+ {
+  "id": 35,
+  "type": "multistep",
+  "title": "Mirror Number",
+  "scene": "The clock dial reads 372.",
+  "clue": "Take 372. Reverse its digits. Find the difference between the two numbers. Then add the sum of the digits of 372.",
+  "answer": "111",
+  "hint": "Difference first (372 minus the reversed number), then the digit sum.",
+  "time": 85
+ },
+ {
+  "id": 36,
+  "type": "choice",
+  "title": "Straight Line",
+  "scene": "A gear rack moves in two directions.",
+  "clue": "A pointer moves 3 cm north, then 4 cm east. How far is it, in a straight line, from where it started?",
+  "answer": "5 cm",
+  "hint": "The two moves form the sides of a right triangle.",
+  "time": 70,
+  "choices": [
+   "5 cm",
+   "7 cm",
+   "6 cm",
+   "4 cm"
+  ]
+ },
+ {
+  "id": 37,
+  "type": "memory",
+  "title": "Tree Initials",
+  "scene": "Five brass plaques flash on the wall.",
+  "clue": "Memorize: PINE - OAK - ELM - FIR - ASH",
+  "answer": "POEFA",
+  "hint": "Enter the FIRST LETTER of each word, in order.",
+  "time": 65,
+  "memTime": 5,
+  "ask": "Enter the FIRST LETTER of each word, in order.",
+  "text": true
+ },
+ {
+  "id": 38,
+  "type": "observation",
+  "title": "Odd Card Out",
+  "scene": "Five cards lie face-up on the table.",
+  "clue": "Which number does not belong?  16, 25, 36, 48, 49",
+  "answer": "48",
+  "hint": "Four of them share a special property.",
+  "time": 75
+ },
+ {
+  "id": 39,
+  "type": "logic",
+  "title": "Gear Claims",
+  "scene": "Three gears are each either honest or a liar.",
+  "clue": "Gear A: 'B is a liar.' Gear B: 'C is a liar.' Gear C: 'A and B are both liars.' Which gear is the only honest one?",
+  "answer": "B",
+  "hint": "Try C as honest first - does it survive?",
+  "time": 90,
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "None"
+  ]
+ },
+ {
+  "id": 40,
+  "type": "cipherMath",
+  "title": "Master Lock: Two Words",
+  "scene": "The clockwork door weighs words.",
+  "clue": "Word value = sum of letter values (A=1 ... Z=26). Enter value(LOCK) + value(KEY).",
+  "answer": "82",
+  "hint": "Work out each word on its own first.",
+  "time": 100
+ },
+ {
+  "id": 41,
+  "type": "memory",
+  "title": "Reverse Vault",
+  "scene": "The vault dial flashes six digits.",
+  "clue": "Memorize: 5 2 8 1 9 4",
+  "answer": "491825",
+  "hint": "Enter the digits in REVERSE order.",
+  "time": 75,
+  "memTime": 5,
+  "ask": "Enter the digits in REVERSE order.",
+  "text": false
+ },
+ {
+  "id": 42,
+  "type": "observation",
+  "title": "Hidden Squares",
+  "scene": "A tiled floor hides many squares.",
+  "clue": "How many squares of ANY size are in a 3 x 3 grid of small squares?",
+  "answer": "14",
+  "hint": "Count 1x1, then 2x2, then 3x3.",
+  "time": 85
+ },
+ {
+  "id": 43,
+  "type": "logic",
+  "title": "Ballroom Race",
+  "scene": "Five guests raced across the ballroom floor.",
+  "clue": "Ada finished after Bram. Cleo finished exactly two places ahead of Eli. Dev finished immediately after Ada. Bram was not first. Eli was not last. Who finished 3rd?",
+  "answer": "Eli",
+  "hint": "Place Cleo and Eli first: they must be two apart.",
+  "time": 100
+ },
+ {
+  "id": 44,
+  "type": "multistep",
+  "title": "Prime Square",
+  "scene": "A cipher plate sits under the portrait.",
+  "clue": "Start with 7. Square it. Subtract the largest prime below 30. Divide the result by 4.",
+  "answer": "5",
+  "hint": "The largest prime below 30 is not 27 or 25.",
+  "time": 95
+ },
+ {
+  "id": 45,
+  "type": "sequence",
+  "title": "Cannonball Pyramid",
+  "scene": "Iron balls are stacked in a pyramid on the mantel.",
+  "clue": "1, 4, 10, 20, 35, ?",
+  "answer": "56",
+  "hint": "The gaps are 3, 6, 10, 15 - triangular numbers.",
+  "time": 80
+ },
+ {
+  "id": 46,
+  "type": "math",
+  "title": "Safe Digits",
+  "scene": "The safe accepts one exact number.",
+  "clue": "Find the smallest positive number whose digits add up to 20 and which is divisible by 4.",
+  "answer": "488",
+  "hint": "You need three digits. A number is divisible by 4 if its last two digits are.",
+  "time": 100
+ },
+ {
+  "id": 47,
+  "type": "choice",
+  "title": "Painted Cube",
+  "scene": "A painted cube is sliced apart.",
+  "clue": "A 3 x 3 x 3 cube is painted on all outer faces, then cut into 27 small cubes. How many small cubes have exactly TWO painted faces?",
+  "answer": "12",
+  "hint": "Only cubes on the edges qualify, but not the corners.",
+  "time": 80,
+  "choices": [
+   "6",
+   "8",
+   "12",
+   "24"
+  ]
+ },
+ {
+  "id": 48,
+  "type": "lateral",
+  "title": "The Snail",
+  "scene": "A snail crawls up the wall in a painting.",
+  "clue": "A snail climbs a 10 m wall. Each day it climbs 3 m; each night it slips back 2 m. On which day does it reach the top?",
+  "answer": "8",
+  "hint": "Once it reaches the top, it does not slip back that night.",
+  "time": 90
+ },
+ {
+  "id": 49,
+  "type": "cipher",
+  "title": "Safe Numbers",
+  "scene": "The safe is labelled with numbers only.",
+  "clue": "The safe shows 5-3-4-11-16-7-22. Each number is the letter's alphabet position plus 2 (A=1, B=2...).",
+  "answer": "CABINET",
+  "hint": "Subtract 2 from every number first, then count through the alphabet.",
+  "time": 100
+ },
+ {
+  "id": 50,
+  "type": "cipherMath",
+  "title": "Master Lock: Shifted Value",
+  "scene": "The mansion's final lock hides a word.",
+  "clue": "Decode IPVS (each letter was shifted forward by 1), then add the letter values of the decoded word (A=1 ... Z=26).",
+  "answer": "62",
+  "hint": "Move each letter one step back to find the word.",
+  "time": 110
+ },
+ {
+  "id": 51,
+  "type": "math",
+  "title": "Tank Race",
+  "scene": "Two pipes fill a tank while a drain leaks.",
+  "clue": "Pipe A fills a tank in 10 hours, Pipe B in 15 hours, and a drain empties a full tank in 30 hours. With all three open, how many MINUTES to fill the empty tank?",
+  "answer": "450",
+  "hint": "Add the rates per hour: 1/10 + 1/15 - 1/30.",
+  "time": 110
+ },
+ {
+  "id": 52,
+  "type": "choice",
+  "title": "Grid Logic",
+  "scene": "A lab display shows a number grid.",
+  "clue": "Each row follows one rule: 2 4 8 / 3 9 27 / 4 ? 64. What replaces the ?",
+  "answer": "16",
+  "hint": "Row 1 is 2, 2 squared, 2 cubed.",
+  "time": 90,
+  "choices": [
+   "12",
+   "16",
+   "20",
+   "24"
+  ]
+ },
+ {
+  "id": 53,
+  "type": "lateral",
+  "title": "The Missing Dollar",
+  "scene": "A ledger claims a dollar has vanished.",
+  "clue": "Three friends pay $30 for a room ($10 each). The clerk realises the price was $25 and sends $5 back with a bellboy. The bellboy keeps $2 and gives each friend $1. Each friend paid $9, so $27, plus the bellboy's $2 makes $29. Where did the missing dollar go?",
+  "answer": "Nowhere - adding $27 and $2 is meaningless",
+  "hint": "What should the $27 the friends paid be made of? Add the $25 room and the $2.",
+  "time": 100,
+  "choices": [
+   "The friends miscounted",
+   "The bellboy lost it",
+   "The clerk kept it",
+   "Nowhere - adding $27 and $2 is meaningless"
+  ]
+ },
+ {
+  "id": 54,
+  "type": "memory",
+  "title": "Diagonal Lock",
+  "scene": "A grid lights up on the lab wall.",
+  "clue": "Memorize this grid: 4 1 9 / 7 3 2 / 8 6 5",
+  "answer": "435",
+  "hint": "Enter the diagonal from top-left to bottom-right.",
+  "time": 85,
+  "memTime": 6,
+  "ask": "Enter the diagonal from top-left to bottom-right.",
+  "text": false
+ },
+ {
+  "id": 55,
+  "type": "logic",
+  "title": "Cage Order",
+  "scene": "Three cages stand in a row in the lab.",
+  "clue": "Cages are red, green and blue; they hold a mouse, a rat and a hamster, one each. The mouse is left of the rat. The red and blue cages are at opposite ends. The hamster is in the green cage. The rat is not in the red cage. What colour is the rat's cage?",
+  "answer": "blue",
+  "hint": "Red and blue are the ends, so green is in the middle.",
+  "time": 110,
+  "choices": [
+   "red",
+   "green",
+   "blue"
+  ]
+ },
+ {
+  "id": 56,
+  "type": "sequence",
+  "title": "Self-Powered",
+  "scene": "The lab console asks for the next value.",
+  "clue": "1, 4, 27, 256, ?",
+  "answer": "3125",
+  "hint": "Each term is n raised to the power n.",
+  "time": 90
+ },
+ {
+  "id": 57,
+  "type": "cipher",
+  "title": "Rolling Key",
+  "scene": "The lab lock shifts letters by a rotating amount.",
+  "clue": "Coded: DGQUTLGWJF. Letters 1, 2 and 3 were shifted forward by 1, 2 and 3; then the pattern repeats. Decode it.",
+  "answer": "CENTRIFUGE",
+  "hint": "Shift back by 1, 2, 3, 1, 2, 3... in that order.",
+  "time": 110
+ },
+ {
+  "id": 58,
+  "type": "multistep",
+  "title": "Chain Reaction",
+  "scene": "The lab computer chains three operations.",
+  "clue": "Add the first five prime numbers. Multiply by the number of vowels in ESCAPE. Subtract 2 to the power of 5.",
+  "answer": "52",
+  "hint": "Vowels in ESCAPE: count E, A, E.",
+  "time": 105
+ },
+ {
+  "id": 59,
+  "type": "observation",
+  "title": "Hidden Word",
+  "scene": "Letters on the wall look random.",
+  "clue": "Read every third letter, starting with the first: SDJAQQMVZPDGLRREQK",
+  "answer": "SAMPLE",
+  "hint": "Take letters 1, 4, 7, 10, 13, 16.",
+  "time": 95
+ },
+ {
+  "id": 60,
+  "type": "cipherMath",
+  "title": "Master Lock: Hex",
+  "scene": "The lab door counts in hexadecimal.",
+  "clue": "Add the hexadecimal numbers 1F and 2A. Enter the result as an ordinary decimal number.",
+  "answer": "73",
+  "hint": "F is 15. Each hex digit on the left is worth 16.",
+  "time": 120
+ },
+ {
+  "id": 61,
+  "type": "cipher",
+  "title": "Self-Counting Code",
+  "scene": "A prisoner scratched a message with a hidden rule.",
+  "clue": "Coded: TWKSXQKS. Every letter was shifted forward by the number of letters in the word. Decode it.",
+  "answer": "LOCKPICK",
+  "hint": "Count the letters in the coded word - that number is your shift.",
+  "time": 120
+ },
+ {
+  "id": 62,
+  "type": "sequence",
+  "title": "Cell Block Count",
+  "scene": "Cell numbers are scratched into the wall.",
+  "clue": "2, 12, 36, 80, 150, ?",
+  "answer": "252",
+  "hint": "For position n, try n squared times (n + 1).",
+  "time": 100
+ },
+ {
+  "id": 63,
+  "type": "observation",
+  "title": "Squares in Squares",
+  "scene": "The prison yard is tiled.",
+  "clue": "How many squares of ANY size are in a 4 x 4 grid of small squares?",
+  "answer": "30",
+  "hint": "Count 1x1, 2x2, 3x3 and 4x4 squares separately.",
+  "time": 105
+ },
+ {
+  "id": 64,
+  "type": "logic",
+  "title": "Five Prisoners",
+  "scene": "Five prisoners each make a claim. Honest ones always tell the truth; liars always lie.",
+  "clue": "Prisoner 1: 'Exactly 1 of us is a liar.' Prisoner 2: 'Exactly 2 of us are liars.' Prisoner 3: 'Exactly 3 of us are liars.' Prisoner 4: 'Exactly 4 of us are liars.' Prisoner 5: 'Exactly 5 of us are liars.' Which prisoner is honest? (Enter the number.)",
+  "answer": "4",
+  "hint": "Only one count can be right, so at most one prisoner is honest.",
+  "time": 120
+ },
+ {
+  "id": 65,
+  "type": "lateral",
+  "title": "Bell Tower",
+  "scene": "The prison bell rings in a steady rhythm.",
+  "clue": "A bell rings 6 times in 5 seconds. At the same steady pace, how many seconds does it take to ring 12 times?",
+  "answer": "11",
+  "hint": "Count the gaps between rings, not the rings.",
+  "time": 110
+ },
+ {
+  "id": 66,
+  "type": "multistep",
+  "title": "Odd Total",
+  "scene": "Cells are numbered 1 to 9.",
+  "clue": "Add all the odd numbers from 1 to 9. Multiply the total by the sum of the digits of 2026.",
+  "answer": "250",
+  "hint": "1 + 3 + 5 + 7 + 9, then multiply by 2 + 0 + 2 + 6.",
+  "time": 115
+ },
+ {
+  "id": 67,
+  "type": "math",
+  "title": "Factorial Zeros",
+  "scene": "The cell number ends in zeros.",
+  "clue": "How many zeros are at the end of 30! (30 factorial)?",
+  "answer": "7",
+  "hint": "Each zero needs a pair 2 x 5. Count the factors of 5 up to 30, and remember 25.",
+  "time": 120
+ },
+ {
+  "id": 68,
+  "type": "memory",
+  "title": "Sorted Cell",
+  "scene": "A cell number flashes.",
+  "clue": "Memorize: 6 2 9 4 1 8 3",
+  "answer": "1234689",
+  "hint": "Enter the digits sorted from smallest to largest.",
+  "time": 95,
+  "memTime": 6,
+  "ask": "Enter the digits sorted from smallest to largest.",
+  "text": false
+ },
+ {
+  "id": 69,
+  "type": "choice",
+  "title": "Dice Odds",
+  "scene": "Two dice lie on the interrogation table.",
+  "clue": "You roll two fair dice. Which total is more likely: 9 or 10?",
+  "answer": "9",
+  "hint": "List the ways to make each total.",
+  "time": 100,
+  "choices": [
+   "9",
+   "10",
+   "Equally likely",
+   "Cannot be known"
+  ]
+ },
+ {
+  "id": 70,
+  "type": "cipherMath",
+  "title": "Master Lock: Mirror Value",
+  "scene": "The prison door reflects letters.",
+  "clue": "Mirror each letter of CODE (A<->Z, B<->Y, ...), then add the letter values (A=1 ... Z=26) of the mirrored letters.",
+  "answer": "81",
+  "hint": "C becomes X, O becomes L...",
+  "time": 130
+ },
+ {
+  "id": 71,
+  "type": "multistep",
+  "title": "Hailstone",
+  "scene": "A station counter follows a strange rule.",
+  "clue": "Start with 13. If the number is odd, triple it and add 1; if it is even, halve it. Repeat until you reach 1. How many steps does it take?",
+  "answer": "9",
+  "hint": "Write the numbers down as you go: 13, 40, 20...",
+  "time": 125
+ },
+ {
+  "id": 72,
+  "type": "logic",
+  "title": "Twelve Coins",
+  "scene": "A crate holds 12 coins; one is a fake, either heavier or lighter than the rest.",
+  "clue": "With a balance scale, what is the fewest number of weighings that always finds the fake AND tells whether it is heavier or lighter?",
+  "answer": "3",
+  "hint": "Each weighing has three outcomes. How many outcomes do you need for 24 possibilities?",
+  "time": 130,
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "id": 73,
+  "type": "choice",
+  "title": "Three Doors",
+  "scene": "A game panel offers three doors. One hides the exit.",
+  "clue": "You pick door 1. The host, who knows where the exit is, opens door 3 and shows it is empty. What is your best move?",
+  "answer": "Switch to door 2",
+  "hint": "Your first pick was right only 1 time in 3.",
+  "time": 110,
+  "choices": [
+   "Switch to door 2",
+   "Stay with door 1",
+   "It makes no difference",
+   "Pick at random"
+  ]
+ },
+ {
+  "id": 74,
+  "type": "cipher",
+  "title": "Mirror, Then Backwards",
+  "scene": "Station comms are double-encoded.",
+  "clue": "The message was mirrored (A=Z, B=Y...) and then the whole word was reversed. It reads PXLOIRZ.",
+  "answer": "AIRLOCK",
+  "hint": "Reverse it first, then swap each letter with its mirror partner.",
+  "time": 130
+ },
+ {
+  "id": 75,
+  "type": "observation",
+  "title": "Missing Tag",
+  "scene": "Crew tags are numbered 1 to 25, but one is missing.",
+  "clue": "Tags collected: 7, 12, 22, 5, 9, 25, 24, 17, 6, 13, 11, 23, 21, 2, 14, 10, 4, 3, 1, 8, 15, 20, 16, 18. Which number from 1 to 25 is missing?",
+  "answer": "19",
+  "hint": "The numbers 1 to 25 add up to 325. What do the collected tags add up to?",
+  "time": 115
+ },
+ {
+  "id": 76,
+  "type": "memory",
+  "title": "Colour Sum",
+  "scene": "Coloured tags flash on the panel.",
+  "clue": "Memorize: RED 4 - BLUE 9 - GREEN 2 - RED 7 - BLUE 3",
+  "answer": "11",
+  "hint": "Enter the SUM of the RED numbers.",
+  "time": 105,
+  "memTime": 6,
+  "ask": "Enter the SUM of the RED numbers.",
+  "text": false
+ },
+ {
+  "id": 77,
+  "type": "sequence",
+  "title": "Three-Way Sum",
+  "scene": "A station panel blinks a growing series.",
+  "clue": "1, 1, 2, 4, 7, 13, 24, ?",
+  "answer": "44",
+  "hint": "Each term is the sum of the three terms before it.",
+  "time": 110
+ },
+ {
+  "id": 78,
+  "type": "math",
+  "title": "Last Two Digits",
+  "scene": "The station power code is hidden in a huge number.",
+  "clue": "What are the last two digits of 7^2026?",
+  "answer": "49",
+  "hint": "The last two digits of powers of 7 repeat in a cycle of 4: 07, 49, 43, 01.",
+  "time": 130
+ },
+ {
+  "id": 79,
+  "type": "lateral",
+  "title": "Two Fathers, Two Sons",
+  "scene": "A crew photo shows a strange headcount.",
+  "clue": "Two fathers and two sons each caught exactly one fish, and only three fish were caught. How is that possible?",
+  "answer": "Three people: a grandfather, his son and his grandson",
+  "hint": "Could one person be both a father and a son?",
+  "time": 120,
+  "choices": [
+   "Three people: a grandfather, his son and his grandson",
+   "One fish was thrown back",
+   "Two fish were shared",
+   "One person caught nothing"
+  ]
+ },
+ {
+  "id": 80,
+  "type": "cipherMath",
+  "title": "Master Lock: ASCII",
+  "scene": "The station panel shows raw bytes.",
+  "clue": "The panel shows three bytes: 01000011 01000001 01010100. Read them as ASCII letters (01000001 = A). Then add the letter values (A=1 ... Z=26) of the word.",
+  "answer": "24",
+  "hint": "01000001 is A. Work out how far each of the other two bytes is from it.",
+  "time": 140
+ },
+ {
+  "id": 81,
+  "type": "choice",
+  "title": "Shared Birthday",
+  "scene": "A roster lists everyone's birthday.",
+  "clue": "What is the smallest group in which it is more likely than not that two people share a birthday? (Ignore leap years.)",
+  "answer": "23",
+  "hint": "Count pairs of people, not people.",
+  "time": 120,
+  "choices": [
+   "23",
+   "50",
+   "100",
+   "183"
+  ]
+ },
+ {
+  "id": 82,
+  "type": "cipher",
+  "title": "Doubled Positions",
+  "scene": "A keypad shows doubled numbers.",
+  "clue": "The keypad shows 36 10 8 2 6 40 10 8. Each number is twice the letter's alphabet position.",
+  "answer": "REDACTED",
+  "hint": "Halve each number, then find that letter of the alphabet.",
+  "time": 140
+ },
+ {
+  "id": 83,
+  "type": "multistep",
+  "title": "Fixed Point",
+  "scene": "A machine repeats one operation again and again.",
+  "clue": "Start with 2. Apply the rule 'triple it, then subtract 4' six times in a row. What number do you end with?",
+  "answer": "2",
+  "hint": "Try the rule once. What do you notice?",
+  "time": 135
+ },
+ {
+  "id": 84,
+  "type": "math",
+  "title": "Digit Budget",
+  "scene": "The log needs an exact count.",
+  "clue": "How many 3-digit numbers (100 to 999) have digits that add up to 9?",
+  "answer": "45",
+  "hint": "Fix the first digit, then count the pairs of digits that make up the rest.",
+  "time": 140
+ },
+ {
+  "id": 85,
+  "type": "sequence",
+  "title": "Say What You See",
+  "scene": "A terminal types a strange sequence.",
+  "clue": "1, 11, 21, 1211, 111221, ?",
+  "answer": "312211",
+  "hint": "Read each number aloud: 'one 1' gives 11, 'two 1s' gives 21...",
+  "time": 120
+ },
+ {
+  "id": 86,
+  "type": "lateral",
+  "title": "Three Switches",
+  "scene": "Three switches stand outside a sealed room. One controls the bulb inside.",
+  "clue": "You may enter the room only once. How do you find the right switch?",
+  "answer": "Heat one bulb switch first, then swap and enter",
+  "hint": "Bulbs give off more than light.",
+  "time": 130,
+  "choices": [
+   "Heat one bulb switch first, then swap and enter",
+   "Turn all three on, then off one by one",
+   "Flip a switch and listen for a click",
+   "Turn on two switches and go in"
+  ]
+ },
+ {
+  "id": 87,
+  "type": "observation",
+  "title": "Overlapping Hands",
+  "scene": "A black-site clock is stuck in a loop.",
+  "clue": "In 12 hours, how many times do the hour hand and the minute hand of a clock overlap?",
+  "answer": "11",
+  "hint": "They overlap once per hour, except for one hour where it happens exactly at 12.",
+  "time": 125
+ },
+ {
+  "id": 88,
+  "type": "memory",
+  "title": "Numbers Only",
+  "scene": "A file code flashes.",
+  "clue": "Memorize: K7 R2 M9 T4 B6",
+  "answer": "64927",
+  "hint": "Enter only the numbers, in REVERSE order.",
+  "time": 115,
+  "memTime": 6,
+  "ask": "Enter only the numbers, in REVERSE order.",
+  "text": false
+ },
+ {
+  "id": 89,
+  "type": "logic",
+  "title": "Circuit Breaker",
+  "scene": "A black-site panel shows four inputs: A=1, B=1, C=0, D=1.",
+  "clue": "P = A XOR B.  Q = NOT (P OR C).  R = (B XOR D) OR Q.  S = NOT (R AND A). Enter P, Q, R, S as one four-digit binary string.",
+  "answer": "0110",
+  "hint": "Compute the gates in order: P first, then Q, R and S.",
+  "time": 140
+ },
+ {
+  "id": 90,
+  "type": "cipherMath",
+  "title": "Master Lock: Reversed Total",
+  "scene": "The black-site door loves reversals.",
+  "clue": "Find the value of LABYRINTH (letter values A=1 ... Z=26, summed). Reverse the digits of that total, then subtract the original total.",
+  "answer": "792",
+  "hint": "Add all nine letters first. Then flip the digits of your total.",
+  "time": 150
+ },
+ {
+  "id": 91,
+  "type": "sequence",
+  "title": "Prime Ladder",
+  "scene": "The core's door shows a ladder of numbers.",
+  "clue": "1, 2, 6, 30, 210, 2310, ?",
+  "answer": "30030",
+  "hint": "Multiply by consecutive primes: x2, x3, x5, x7...",
+  "time": 130
+ },
+ {
+  "id": 92,
+  "type": "lateral",
+  "title": "Burning Ropes",
+  "scene": "Two fuse ropes hang beside the core door.",
+  "clue": "Two ropes each burn for exactly 60 minutes, but unevenly. Using only them and a lighter, how can you time exactly 45 minutes?",
+  "answer": "Light rope 1 at both ends and rope 2 at one end. When rope 1 burns out, light the other end of rope 2.",
+  "hint": "Lighting a rope at both ends makes it burn twice as fast.",
+  "time": 140,
+  "choices": [
+   "Light both ropes at one end and wait for rope 1 to be halfway.",
+   "Light rope 2 at both ends and stop when it burns out.",
+   "Cut rope 1 into three equal parts and burn them one after another.",
+   "Light rope 1 at both ends and rope 2 at one end. When rope 1 burns out, light the other end of rope 2."
+  ]
+ },
+ {
+  "id": 93,
+  "type": "memory",
+  "title": "Odd Positions",
+  "scene": "Nine digits flash across the core.",
+  "clue": "Memorize: 4 8 1 6 3 9 2 7 5",
+  "answer": "15",
+  "hint": "Enter the SUM of the digits in odd positions (1st, 3rd, 5th, 7th, 9th).",
+  "time": 125,
+  "memTime": 7,
+  "ask": "Enter the SUM of the digits in odd positions (1st, 3rd, 5th, 7th, 9th).",
+  "text": false
+ },
+ {
+  "id": 94,
+  "type": "choice",
+  "title": "Big Powers",
+  "scene": "The core compares two huge numbers.",
+  "clue": "Which is larger: 2^100 or 10^30?",
+  "answer": "2^100",
+  "hint": "2^10 is 1024, a bit more than 10^3. Raise that to the 10th power.",
+  "time": 130,
+  "choices": [
+   "2^100",
+   "10^30",
+   "They are equal",
+   "Cannot be compared"
+  ]
+ },
+ {
+  "id": 95,
+  "type": "math",
+  "title": "Two But Not Both",
+  "scene": "The core counts numbers that pass exactly one test.",
+  "clue": "How many whole numbers from 1 to 999 are divisible by 3 or by 5, but NOT by both?",
+  "answer": "400",
+  "hint": "Count the multiples of 3, of 5 and of 15, then remove the overlap twice.",
+  "time": 150
+ },
+ {
+  "id": 96,
+  "type": "logic",
+  "title": "Five Statements",
+  "scene": "Five suspects, one culprit. Exactly two statements are true.",
+  "clue": "A: 'It was B or C.'  B: 'It was not me and not C.'  C: 'A is telling the truth.'  D: 'B is lying.'  E: 'It was A or B.'  Who is the culprit?",
+  "answer": "A",
+  "hint": "Assume each suspect is guilty and count the true statements. You need exactly two.",
+  "time": 150,
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ]
+ },
+ {
+  "id": 97,
+  "type": "multistep",
+  "title": "Digit Fold",
+  "scene": "The core's final arithmetic.",
+  "clue": "Take 2026. Add its digits. Square the sum. Subtract the number of primes below 20. Divide by 4.",
+  "answer": "23",
+  "hint": "There are 8 primes below 20: 2, 3, 5, 7, 11, 13, 17, 19.",
+  "time": 145
+ },
+ {
+  "id": 98,
+  "type": "cipher",
+  "title": "The Keyword Lock",
+  "scene": "The core's last lock uses a keyword.",
+  "clue": "The keyword is DOOR. Each plaintext letter was shifted forward by D=3, O=14, O=14, R=17, repeating. The lock shows VIFWDQS. Decode it.",
+  "answer": "SURFACE",
+  "hint": "Subtract the key: first letter minus 3, second minus 14, third minus 14, fourth minus 17, then repeat.",
+  "time": 150
+ },
+ {
+  "id": 99,
+  "type": "observation",
+  "title": "The Unpaired One",
+  "scene": "The core logs 15 signals. Every value repeats except one.",
+  "clue": "Which number appears only once?  31  95  47  88  31  95  73  47  88  59  26  12  12  73  59",
+  "answer": "26",
+  "hint": "Cross out numbers as you find their twins.",
+  "time": 135
+ },
+ {
+  "id": 100,
+  "type": "cipherMath",
+  "title": "Master Lock: The Core",
+  "scene": "The final lock of the core.",
+  "clue": "Decode KWJJITR (each letter was shifted forward by 5). Add the letter values of the decoded word (A=1 ... Z=26), double the total, then subtract 52.",
+  "answer": "80",
+  "hint": "Shift each letter 5 places back to find the word.",
+  "time": 160
+ }
+]

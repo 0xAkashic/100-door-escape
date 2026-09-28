@@ -1,0 +1,17 @@
+{
+  "name": "100-doors-brain-escape",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx cap sync android",
+    "validate:levels": "node scripts/validate-levels.js",
+    "validate:image-puzzles": "node scripts/validate-image-puzzles.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}

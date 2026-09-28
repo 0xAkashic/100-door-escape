@@ -1,0 +1,2276 @@
+[
+  {
+    "id": 1,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "3",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "SQUARE",
+        "SQUARE",
+        "STAR",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE"
+      ],
+      "odd": 3
+    },
+    "image": "image-puzzles/images/puzzle-001.png"
+  },
+  {
+    "id": 2,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the green circles in the picture.",
+    "answer": "8",
+    "data": {
+      "colors": [
+        "BLUE",
+        "GOLD",
+        "RED",
+        "RED",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GREEN"
+      ],
+      "target": "GREEN"
+    },
+    "image": "image-puzzles/images/puzzle-002.png"
+  },
+  {
+    "id": 3,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "STAR",
+    "choices": [
+      "STAR",
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "STAR",
+        "TRIANGLE",
+        "DIAMOND",
+        "SQUARE",
+        "CIRCLE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-003.png"
+  },
+  {
+    "id": 4,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts DOWN. Rotate it right 5 times (90° each).",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "DOWN",
+      "turns": 5
+    },
+    "image": "image-puzzles/images/puzzle-004.png"
+  },
+  {
+    "id": 5,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "DIAMOND|STAR|TRIANGLE|CIRCLE",
+    "choices": [
+      "DIAMOND|STAR|TRIANGLE|CIRCLE",
+      "CIRCLE|TRIANGLE|STAR|DIAMOND",
+      "TRIANGLE|STAR|DIAMOND|CIRCLE",
+      "DIAMOND|CIRCLE|TRIANGLE|STAR"
+    ],
+    "data": {
+      "pattern": [
+        "CIRCLE",
+        "TRIANGLE",
+        "STAR",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-005.png"
+  },
+  {
+    "id": 6,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "STAR",
+    "choices": [
+      "CIRCLE",
+      "TRIANGLE",
+      "STAR",
+      "SQUARE"
+    ],
+    "data": {
+      "grid": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-006.png"
+  },
+  {
+    "id": 7,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-007.png"
+  },
+  {
+    "id": 8,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "C",
+      "seed": 8
+    },
+    "image": "image-puzzles/images/puzzle-008.png"
+  },
+  {
+    "id": 9,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the triangle. Which direction is the triangle from the circle?",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "TRIANGLE",
+      "direction": "LEFT"
+    },
+    "image": "image-puzzles/images/puzzle-009.png"
+  },
+  {
+    "id": 10,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 3 ◆ tiles. Each is worth 2. Apply −. Enter the result.",
+    "answer": "1",
+    "data": {
+      "count": 3,
+      "value": 2,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-010.png"
+  },
+  {
+    "id": 11,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "2",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "DIAMOND",
+        "CIRCLE",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND"
+      ],
+      "odd": 2
+    },
+    "image": "image-puzzles/images/puzzle-011.png"
+  },
+  {
+    "id": 12,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the blue circles in the picture.",
+    "answer": "7",
+    "data": {
+      "colors": [
+        "BLUE",
+        "GOLD",
+        "BLUE",
+        "GREEN",
+        "BLUE",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN"
+      ],
+      "target": "BLUE"
+    },
+    "image": "image-puzzles/images/puzzle-012.png"
+  },
+  {
+    "id": 13,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "SQUARE",
+    "choices": [
+      "SQUARE",
+      "CIRCLE",
+      "TRIANGLE",
+      "STAR",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "SQUARE",
+        "STAR",
+        "DIAMOND",
+        "CIRCLE",
+        "TRIANGLE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-013.png"
+  },
+  {
+    "id": 14,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts RIGHT. Rotate it right 4 times (90° each).",
+    "answer": "RIGHT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "RIGHT",
+      "turns": 4
+    },
+    "image": "image-puzzles/images/puzzle-014.png"
+  },
+  {
+    "id": 15,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "DIAMOND|SQUARE|SQUARE|TRIANGLE",
+    "choices": [
+      "DIAMOND|SQUARE|SQUARE|TRIANGLE",
+      "TRIANGLE|SQUARE|SQUARE|DIAMOND",
+      "SQUARE|SQUARE|DIAMOND|TRIANGLE",
+      "DIAMOND|TRIANGLE|SQUARE|SQUARE"
+    ],
+    "data": {
+      "pattern": [
+        "TRIANGLE",
+        "SQUARE",
+        "SQUARE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-015.png"
+  },
+  {
+    "id": 16,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "SQUARE",
+    "choices": [
+      "SQUARE",
+      "DIAMOND",
+      "CIRCLE",
+      "TRIANGLE"
+    ],
+    "data": {
+      "grid": [
+        "DIAMOND",
+        "CIRCLE",
+        "TRIANGLE",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-016.png"
+  },
+  {
+    "id": 17,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-017.png"
+  },
+  {
+    "id": 18,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "A",
+      "seed": 18
+    },
+    "image": "image-puzzles/images/puzzle-018.png"
+  },
+  {
+    "id": 19,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the diamond. Which direction is the diamond from the circle?",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "DIAMOND",
+      "direction": "DOWN"
+    },
+    "image": "image-puzzles/images/puzzle-019.png"
+  },
+  {
+    "id": 20,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 5 ◆ tiles. Each is worth 6. Apply −. Enter the result.",
+    "answer": "-1",
+    "data": {
+      "count": 5,
+      "value": 6,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-020.png"
+  },
+  {
+    "id": 21,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "6",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "STAR",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE"
+      ],
+      "odd": 6
+    },
+    "image": "image-puzzles/images/puzzle-021.png"
+  },
+  {
+    "id": 22,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the green circles in the picture.",
+    "answer": "4",
+    "data": {
+      "colors": [
+        "RED",
+        "GREEN",
+        "RED",
+        "GREEN",
+        "RED",
+        "BLUE",
+        "GOLD",
+        "BLUE",
+        "GOLD",
+        "BLUE",
+        "GREEN",
+        "GREEN"
+      ],
+      "target": "GREEN"
+    },
+    "image": "image-puzzles/images/puzzle-022.png"
+  },
+  {
+    "id": 23,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "TRIANGLE",
+    "choices": [
+      "TRIANGLE",
+      "CIRCLE",
+      "SQUARE",
+      "STAR",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "TRIANGLE",
+        "STAR",
+        "CIRCLE",
+        "SQUARE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-023.png"
+  },
+  {
+    "id": 24,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts LEFT. Rotate it right 4 times (90° each).",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "LEFT",
+      "turns": 4
+    },
+    "image": "image-puzzles/images/puzzle-024.png"
+  },
+  {
+    "id": 25,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "DIAMOND|TRIANGLE|CIRCLE|CIRCLE",
+    "choices": [
+      "DIAMOND|TRIANGLE|CIRCLE|CIRCLE",
+      "CIRCLE|CIRCLE|TRIANGLE|DIAMOND",
+      "CIRCLE|TRIANGLE|DIAMOND|CIRCLE",
+      "DIAMOND|CIRCLE|CIRCLE|TRIANGLE"
+    ],
+    "data": {
+      "pattern": [
+        "CIRCLE",
+        "CIRCLE",
+        "TRIANGLE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-025.png"
+  },
+  {
+    "id": 26,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "STAR",
+      "SQUARE",
+      "TRIANGLE",
+      "DIAMOND"
+    ],
+    "data": {
+      "grid": [
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-026.png"
+  },
+  {
+    "id": 27,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-027.png"
+  },
+  {
+    "id": 28,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "B",
+      "seed": 28
+    },
+    "image": "image-puzzles/images/puzzle-028.png"
+  },
+  {
+    "id": 29,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the diamond. Which direction is the diamond from the circle?",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "DIAMOND",
+      "direction": "DOWN"
+    },
+    "image": "image-puzzles/images/puzzle-029.png"
+  },
+  {
+    "id": 30,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 5 ● tiles. Each is worth 6. Apply −. Enter the result.",
+    "answer": "-1",
+    "data": {
+      "count": 5,
+      "value": 6,
+      "op": "−",
+      "symbol": "●"
+    },
+    "image": "image-puzzles/images/puzzle-030.png"
+  },
+  {
+    "id": 31,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "4",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "CIRCLE",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND"
+      ],
+      "odd": 4
+    },
+    "image": "image-puzzles/images/puzzle-031.png"
+  },
+  {
+    "id": 32,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the blue circles in the picture.",
+    "answer": "8",
+    "data": {
+      "colors": [
+        "BLUE",
+        "GOLD",
+        "BLUE",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "BLUE",
+        "BLUE"
+      ],
+      "target": "BLUE"
+    },
+    "image": "image-puzzles/images/puzzle-032.png"
+  },
+  {
+    "id": 33,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "STAR",
+    "choices": [
+      "STAR",
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "STAR",
+        "DIAMOND",
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-033.png"
+  },
+  {
+    "id": 34,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts UP. Rotate it right 2 times (90° each).",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "UP",
+      "turns": 2
+    },
+    "image": "image-puzzles/images/puzzle-034.png"
+  },
+  {
+    "id": 35,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "SQUARE|STAR|SQUARE|STAR",
+    "choices": [
+      "SQUARE|STAR|SQUARE|STAR",
+      "STAR|SQUARE|STAR|SQUARE",
+      "SQUARE|STAR|STAR|SQUARE",
+      "SQUARE|SQUARE|STAR|STAR"
+    ],
+    "data": {
+      "pattern": [
+        "STAR",
+        "SQUARE",
+        "STAR",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-035.png"
+  },
+  {
+    "id": 36,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "STAR",
+    "choices": [
+      "TRIANGLE",
+      "SQUARE",
+      "CIRCLE",
+      "STAR"
+    ],
+    "data": {
+      "grid": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-036.png"
+  },
+  {
+    "id": 37,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-037.png"
+  },
+  {
+    "id": 38,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "C",
+      "seed": 38
+    },
+    "image": "image-puzzles/images/puzzle-038.png"
+  },
+  {
+    "id": 39,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the star. Which direction is the star from the circle?",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "STAR",
+      "direction": "DOWN"
+    },
+    "image": "image-puzzles/images/puzzle-039.png"
+  },
+  {
+    "id": 40,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 3 ◆ tiles. Each is worth 6. Apply −. Enter the result.",
+    "answer": "-3",
+    "data": {
+      "count": 3,
+      "value": 6,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-040.png"
+  },
+  {
+    "id": 41,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "2",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "DIAMOND",
+        "CIRCLE",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND"
+      ],
+      "odd": 2
+    },
+    "image": "image-puzzles/images/puzzle-041.png"
+  },
+  {
+    "id": 42,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the gold circles in the picture.",
+    "answer": "6",
+    "data": {
+      "colors": [
+        "BLUE",
+        "GOLD",
+        "GOLD",
+        "GOLD",
+        "RED",
+        "GOLD",
+        "GOLD",
+        "BLUE",
+        "RED",
+        "GREEN",
+        "GREEN",
+        "GOLD"
+      ],
+      "target": "GOLD"
+    },
+    "image": "image-puzzles/images/puzzle-042.png"
+  },
+  {
+    "id": 43,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "CIRCLE",
+    "choices": [
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "STAR",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-043.png"
+  },
+  {
+    "id": 44,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts UP. Rotate it right 3 times (90° each).",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "UP",
+      "turns": 3
+    },
+    "image": "image-puzzles/images/puzzle-044.png"
+  },
+  {
+    "id": 45,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "DIAMOND|SQUARE|DIAMOND|SQUARE",
+    "choices": [
+      "DIAMOND|SQUARE|DIAMOND|SQUARE",
+      "SQUARE|DIAMOND|SQUARE|DIAMOND",
+      "DIAMOND|SQUARE|SQUARE|DIAMOND",
+      "DIAMOND|DIAMOND|SQUARE|SQUARE"
+    ],
+    "data": {
+      "pattern": [
+        "SQUARE",
+        "DIAMOND",
+        "SQUARE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-045.png"
+  },
+  {
+    "id": 46,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "SQUARE",
+      "DIAMOND",
+      "STAR",
+      "TRIANGLE"
+    ],
+    "data": {
+      "grid": [
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-046.png"
+  },
+  {
+    "id": 47,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-047.png"
+  },
+  {
+    "id": 48,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "A",
+      "seed": 48
+    },
+    "image": "image-puzzles/images/puzzle-048.png"
+  },
+  {
+    "id": 49,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the circle. Which direction is the circle from the circle?",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "CIRCLE",
+      "direction": "LEFT"
+    },
+    "image": "image-puzzles/images/puzzle-049.png"
+  },
+  {
+    "id": 50,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 7 ◆ tiles. Each is worth 3. Apply −. Enter the result.",
+    "answer": "4",
+    "data": {
+      "count": 7,
+      "value": 3,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-050.png"
+  },
+  {
+    "id": 51,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "4",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "STAR",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE",
+        "SQUARE"
+      ],
+      "odd": 4
+    },
+    "image": "image-puzzles/images/puzzle-051.png"
+  },
+  {
+    "id": 52,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the gold circles in the picture.",
+    "answer": "5",
+    "data": {
+      "colors": [
+        "GOLD",
+        "BLUE",
+        "GREEN",
+        "GOLD",
+        "RED",
+        "RED",
+        "GOLD",
+        "RED",
+        "GOLD",
+        "GREEN",
+        "GOLD",
+        "BLUE"
+      ],
+      "target": "GOLD"
+    },
+    "image": "image-puzzles/images/puzzle-052.png"
+  },
+  {
+    "id": 53,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "DIAMOND",
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "STAR"
+    ],
+    "data": {
+      "sequence": [
+        "DIAMOND",
+        "TRIANGLE",
+        "STAR",
+        "CIRCLE",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-053.png"
+  },
+  {
+    "id": 54,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts RIGHT. Rotate it right 2 times (90° each).",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "RIGHT",
+      "turns": 2
+    },
+    "image": "image-puzzles/images/puzzle-054.png"
+  },
+  {
+    "id": 55,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "DIAMOND|SQUARE|STAR|DIAMOND",
+    "choices": [
+      "DIAMOND|SQUARE|STAR|DIAMOND",
+      "DIAMOND|STAR|SQUARE|DIAMOND",
+      "STAR|SQUARE|DIAMOND|DIAMOND",
+      "DIAMOND|DIAMOND|STAR|SQUARE"
+    ],
+    "data": {
+      "pattern": [
+        "DIAMOND",
+        "STAR",
+        "SQUARE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-055.png"
+  },
+  {
+    "id": 56,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "STAR",
+    "choices": [
+      "STAR",
+      "TRIANGLE",
+      "SQUARE",
+      "CIRCLE"
+    ],
+    "data": {
+      "grid": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-056.png"
+  },
+  {
+    "id": 57,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-057.png"
+  },
+  {
+    "id": 58,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "B",
+      "seed": 58
+    },
+    "image": "image-puzzles/images/puzzle-058.png"
+  },
+  {
+    "id": 59,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the circle. Which direction is the circle from the circle?",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "CIRCLE",
+      "direction": "DOWN"
+    },
+    "image": "image-puzzles/images/puzzle-059.png"
+  },
+  {
+    "id": 60,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 7 ● tiles. Each is worth 5. Apply −. Enter the result.",
+    "answer": "2",
+    "data": {
+      "count": 7,
+      "value": 5,
+      "op": "−",
+      "symbol": "●"
+    },
+    "image": "image-puzzles/images/puzzle-060.png"
+  },
+  {
+    "id": 61,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "1",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "CIRCLE",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND"
+      ],
+      "odd": 1
+    },
+    "image": "image-puzzles/images/puzzle-061.png"
+  },
+  {
+    "id": 62,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the gold circles in the picture.",
+    "answer": "6",
+    "data": {
+      "colors": [
+        "GOLD",
+        "GOLD",
+        "BLUE",
+        "GOLD",
+        "GOLD",
+        "RED",
+        "GREEN",
+        "GREEN",
+        "RED",
+        "GOLD",
+        "GOLD",
+        "BLUE"
+      ],
+      "target": "GOLD"
+    },
+    "image": "image-puzzles/images/puzzle-062.png"
+  },
+  {
+    "id": 63,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "TRIANGLE",
+    "choices": [
+      "TRIANGLE",
+      "CIRCLE",
+      "SQUARE",
+      "STAR",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "TRIANGLE",
+        "STAR",
+        "CIRCLE",
+        "SQUARE",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-063.png"
+  },
+  {
+    "id": 64,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts RIGHT. Rotate it right 6 times (90° each).",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "RIGHT",
+      "turns": 6
+    },
+    "image": "image-puzzles/images/puzzle-064.png"
+  },
+  {
+    "id": 65,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "SQUARE|TRIANGLE|SQUARE|STAR",
+    "choices": [
+      "SQUARE|TRIANGLE|SQUARE|STAR",
+      "STAR|SQUARE|TRIANGLE|SQUARE",
+      "SQUARE|STAR|SQUARE|TRIANGLE",
+      "SQUARE|STAR|TRIANGLE|SQUARE"
+    ],
+    "data": {
+      "pattern": [
+        "STAR",
+        "SQUARE",
+        "TRIANGLE",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-065.png"
+  },
+  {
+    "id": 66,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "CIRCLE",
+    "choices": [
+      "CIRCLE",
+      "SQUARE",
+      "DIAMOND",
+      "STAR"
+    ],
+    "data": {
+      "grid": [
+        "SQUARE",
+        "STAR",
+        "DIAMOND",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-066.png"
+  },
+  {
+    "id": 67,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-067.png"
+  },
+  {
+    "id": 68,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "B",
+      "seed": 68
+    },
+    "image": "image-puzzles/images/puzzle-068.png"
+  },
+  {
+    "id": 69,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the circle. Which direction is the circle from the circle?",
+    "answer": "UP",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "CIRCLE",
+      "direction": "UP"
+    },
+    "image": "image-puzzles/images/puzzle-069.png"
+  },
+  {
+    "id": 70,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 4 ◆ tiles. Each is worth 6. Apply −. Enter the result.",
+    "answer": "-2",
+    "data": {
+      "count": 4,
+      "value": 6,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-070.png"
+  },
+  {
+    "id": 71,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "4",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "STAR",
+        "STAR",
+        "STAR",
+        "DIAMOND",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR"
+      ],
+      "odd": 4
+    },
+    "image": "image-puzzles/images/puzzle-071.png"
+  },
+  {
+    "id": 72,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the green circles in the picture.",
+    "answer": "8",
+    "data": {
+      "colors": [
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GOLD",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "RED",
+        "GREEN",
+        "GREEN",
+        "BLUE",
+        "RED"
+      ],
+      "target": "GREEN"
+    },
+    "image": "image-puzzles/images/puzzle-072.png"
+  },
+  {
+    "id": 73,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "DIAMOND",
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "STAR"
+    ],
+    "data": {
+      "sequence": [
+        "DIAMOND",
+        "TRIANGLE",
+        "STAR",
+        "CIRCLE",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-073.png"
+  },
+  {
+    "id": 74,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts UP. Rotate it right 2 times (90° each).",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "UP",
+      "turns": 2
+    },
+    "image": "image-puzzles/images/puzzle-074.png"
+  },
+  {
+    "id": 75,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "SQUARE|CIRCLE|SQUARE|DIAMOND",
+    "choices": [
+      "SQUARE|CIRCLE|SQUARE|DIAMOND",
+      "DIAMOND|SQUARE|CIRCLE|SQUARE",
+      "SQUARE|DIAMOND|SQUARE|CIRCLE",
+      "SQUARE|DIAMOND|CIRCLE|SQUARE"
+    ],
+    "data": {
+      "pattern": [
+        "DIAMOND",
+        "SQUARE",
+        "CIRCLE",
+        "SQUARE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-075.png"
+  },
+  {
+    "id": 76,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "STAR",
+    "choices": [
+      "STAR",
+      "SQUARE",
+      "CIRCLE",
+      "TRIANGLE"
+    ],
+    "data": {
+      "grid": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-076.png"
+  },
+  {
+    "id": 77,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-077.png"
+  },
+  {
+    "id": 78,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "A",
+      "seed": 78
+    },
+    "image": "image-puzzles/images/puzzle-078.png"
+  },
+  {
+    "id": 79,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the square. Which direction is the square from the circle?",
+    "answer": "RIGHT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "SQUARE",
+      "direction": "RIGHT"
+    },
+    "image": "image-puzzles/images/puzzle-079.png"
+  },
+  {
+    "id": 80,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 3 ◆ tiles. Each is worth 4. Apply −. Enter the result.",
+    "answer": "-1",
+    "data": {
+      "count": 3,
+      "value": 4,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-080.png"
+  },
+  {
+    "id": 81,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "2",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "STAR",
+        "DIAMOND",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR",
+        "STAR"
+      ],
+      "odd": 2
+    },
+    "image": "image-puzzles/images/puzzle-081.png"
+  },
+  {
+    "id": 82,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the gold circles in the picture.",
+    "answer": "7",
+    "data": {
+      "colors": [
+        "BLUE",
+        "GOLD",
+        "BLUE",
+        "GOLD",
+        "GOLD",
+        "RED",
+        "RED",
+        "GREEN",
+        "GOLD",
+        "GOLD",
+        "GOLD",
+        "GOLD"
+      ],
+      "target": "GOLD"
+    },
+    "image": "image-puzzles/images/puzzle-082.png"
+  },
+  {
+    "id": 83,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "DIAMOND",
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "STAR"
+    ],
+    "data": {
+      "sequence": [
+        "DIAMOND",
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        "STAR"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-083.png"
+  },
+  {
+    "id": 84,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts RIGHT. Rotate it right 7 times (90° each).",
+    "answer": "UP",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "RIGHT",
+      "turns": 7
+    },
+    "image": "image-puzzles/images/puzzle-084.png"
+  },
+  {
+    "id": 85,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "TRIANGLE|DIAMOND|CIRCLE|DIAMOND",
+    "choices": [
+      "TRIANGLE|DIAMOND|CIRCLE|DIAMOND",
+      "DIAMOND|CIRCLE|DIAMOND|TRIANGLE",
+      "CIRCLE|DIAMOND|TRIANGLE|DIAMOND",
+      "CIRCLE|DIAMOND|DIAMOND|TRIANGLE"
+    ],
+    "data": {
+      "pattern": [
+        "DIAMOND",
+        "CIRCLE",
+        "DIAMOND",
+        "TRIANGLE"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-085.png"
+  },
+  {
+    "id": 86,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "TRIANGLE",
+      "SQUARE",
+      "DIAMOND",
+      "STAR"
+    ],
+    "data": {
+      "grid": [
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-086.png"
+  },
+  {
+    "id": 87,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-087.png"
+  },
+  {
+    "id": 88,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "B",
+      "seed": 88
+    },
+    "image": "image-puzzles/images/puzzle-088.png"
+  },
+  {
+    "id": 89,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the star. Which direction is the star from the circle?",
+    "answer": "UP",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "STAR",
+      "direction": "UP"
+    },
+    "image": "image-puzzles/images/puzzle-089.png"
+  },
+  {
+    "id": 90,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 8 ● tiles. Each is worth 2. Apply −. Enter the result.",
+    "answer": "6",
+    "data": {
+      "count": 8,
+      "value": 2,
+      "op": "−",
+      "symbol": "●"
+    },
+    "image": "image-puzzles/images/puzzle-090.png"
+  },
+  {
+    "id": 91,
+    "kind": "oddOneOut",
+    "title": "Spot the Intruder",
+    "question": "One tile is different. Which position is the odd one?",
+    "answer": "7",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "data": {
+      "cells": [
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "DIAMOND",
+        "CIRCLE",
+        "DIAMOND",
+        "DIAMOND"
+      ],
+      "odd": 7
+    },
+    "image": "image-puzzles/images/puzzle-091.png"
+  },
+  {
+    "id": 92,
+    "kind": "countColor",
+    "title": "Count the Markers",
+    "question": "Count the green circles in the picture.",
+    "answer": "7",
+    "data": {
+      "colors": [
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "GOLD",
+        "GREEN",
+        "BLUE",
+        "BLUE",
+        "RED",
+        "GREEN",
+        "RED",
+        "GREEN",
+        "GREEN"
+      ],
+      "target": "GREEN"
+    },
+    "image": "image-puzzles/images/puzzle-092.png"
+  },
+  {
+    "id": 93,
+    "kind": "visualSequence",
+    "title": "What Comes Next?",
+    "question": "Study the image sequence and choose the next symbol.",
+    "answer": "CIRCLE",
+    "choices": [
+      "CIRCLE",
+      "TRIANGLE",
+      "SQUARE",
+      "STAR",
+      "DIAMOND"
+    ],
+    "data": {
+      "sequence": [
+        "CIRCLE",
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        "DIAMOND"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-093.png"
+  },
+  {
+    "id": 94,
+    "kind": "rotation",
+    "title": "Turn the Arrow",
+    "question": "The arrow starts LEFT. Rotate it right 3 times (90° each).",
+    "answer": "DOWN",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "start": "LEFT",
+      "turns": 3
+    },
+    "image": "image-puzzles/images/puzzle-094.png"
+  },
+  {
+    "id": 95,
+    "kind": "mirror",
+    "title": "Mirror the Pattern",
+    "question": "Read the symbols from the mirror side. Choose the reversed sequence.",
+    "answer": "STAR|SQUARE|SQUARE|STAR",
+    "choices": [
+      "STAR|SQUARE|SQUARE|STAR",
+      "SQUARE|SQUARE|STAR|STAR",
+      "STAR|STAR|SQUARE|SQUARE",
+      "SQUARE|STAR|SQUARE|STAR"
+    ],
+    "data": {
+      "pattern": [
+        "STAR",
+        "SQUARE",
+        "SQUARE",
+        "STAR"
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-095.png"
+  },
+  {
+    "id": 96,
+    "kind": "matrix",
+    "title": "Missing Tile",
+    "question": "The symbols advance one step clockwise through the shape set. Choose the missing symbol.",
+    "answer": "DIAMOND",
+    "choices": [
+      "DIAMOND",
+      "TRIANGLE",
+      "STAR",
+      "SQUARE"
+    ],
+    "data": {
+      "grid": [
+        "TRIANGLE",
+        "SQUARE",
+        "STAR",
+        null
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-096.png"
+  },
+  {
+    "id": 97,
+    "kind": "path",
+    "title": "Shortest Route",
+    "question": "Find the shortest number of moves from START to EXIT. Move only up, down, left or right.",
+    "answer": "8",
+    "data": {
+      "size": 5,
+      "walls": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    "image": "image-puzzles/images/puzzle-097.png"
+  },
+  {
+    "id": 98,
+    "kind": "symmetry",
+    "title": "Complete the Symmetry",
+    "question": "Choose the option that completes the mirror symmetry.",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "data": {
+      "missing": "C",
+      "seed": 98
+    },
+    "image": "image-puzzles/images/puzzle-098.png"
+  },
+  {
+    "id": 99,
+    "kind": "spatial",
+    "title": "Where Is It?",
+    "question": "Look at the circle and the square. Which direction is the square from the circle?",
+    "answer": "LEFT",
+    "choices": [
+      "UP",
+      "RIGHT",
+      "DOWN",
+      "LEFT"
+    ],
+    "data": {
+      "shape": "SQUARE",
+      "direction": "LEFT"
+    },
+    "image": "image-puzzles/images/puzzle-099.png"
+  },
+  {
+    "id": 100,
+    "kind": "visualMath",
+    "title": "Picture Math",
+    "question": "The picture has 6 ◆ tiles. Each is worth 3. Apply −. Enter the result.",
+    "answer": "3",
+    "data": {
+      "count": 6,
+      "value": 3,
+      "op": "−",
+      "symbol": "◆"
+    },
+    "image": "image-puzzles/images/puzzle-100.png"
+  }
+]
